@@ -118,11 +118,10 @@ a {
 }
 
 .header-nav ul li .nav-link {
-    padding: 0 6px 6px;
     border-bottom: 3px solid transparent;
     font-family: "Merriweather";
     font-style: normal;
-    font-size: 17px;
+    font-size: 13px;
     line-height: 20px;
     color: #fff;
     white-space: nowrap;
@@ -500,13 +499,14 @@ a {
 }
 
 .home__section-new {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .home__section-new .home__sn-flex {
     border-top: 1px solid #2e3192;
     padding-top: 20px;
     display: flex;
+    margin-top: 40px;
 }
 
 .home__section-new .home__sn-flex .box-category:first-child {
@@ -554,13 +554,13 @@ a {
 }
 
 .box-stream-item {
-    padding: 20px 0;
+    padding: 20px 5px;
     border-top: 1px solid #e0e0e0;
     display: flex;
 }
 
 .home__section-new .content-list-new {
-    margin-top: 9.5px;
+    margin-top: 11.5px;
 }
 
 .box-stream-avatar {
@@ -571,7 +571,7 @@ a {
 
 .box-stream-content .title-top {
     font-weight: 500;
-    font-size: 19px;
+    font-size: 17px;
     line-height: 130%;
     letter-spacing: 0.02em;
     color: #333;
@@ -596,8 +596,8 @@ a {
 
 .home__category .title-section {
     border-top: 1px solid #2e3192;
-    padding-top: 2px;
-    margin-bottom: 10px;
+    /* padding-top: 20px;
+    margin-bottom: 10px; */
 }
 
 .box-top {
@@ -606,7 +606,7 @@ a {
 
 .box-top .box-big {
     width: 520px;
-    margin-right: 40px;
+    margin-right: 35px;
 }
 
 .box-item .box-avatar {
@@ -651,7 +651,7 @@ a {
 
 .box-content {
     font-weight: 500;
-    font-size: 19px;
+    font-size: 15px;
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #333;
@@ -674,8 +674,6 @@ a {
 
 .home__list-news .title-section {
     border-top: 1px solid #2e3192;
-    /* padding-top: 20px; */
-    margin-bottom: 10px;
 }
 
 .box-stream-list {
@@ -706,6 +704,7 @@ a {
 
 .swiper-slide {
     margin-right: 20px;
+    width: 200px;
 }
 
 .swiper-slide img {
